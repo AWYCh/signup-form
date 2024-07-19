@@ -61,3 +61,16 @@
 .top-right {
     flex-direction: column;
 }
+
+.mid-right {
+    flex-direction: column;
+    background-color: white;
+}
+
+.bottom-right {
+    flex-direction: column;
+}
+
+.login {
+    color: #596D48;
+}
