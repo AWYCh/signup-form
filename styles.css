@@ -86,14 +86,20 @@ h3 {
 
 input {
     border: 1px solid #E5E7EB;
-    width: 250px;
-    height: 35px;
+    width: 15vw;
+    height: 4vh;
     border-radius: 5px;
-    padding-left: 10px;
+    padding: 10px;
 }
 
 input:focus {
     border: 1px solid blue;
+    outline: none;
+    box-shadow: 2px 2px 2px 2px #E5E7EB;
+}
+
+input:invalid {
+    border: 1px solid red;
 }
 
 form {
@@ -112,7 +118,7 @@ label {
     font-size: 14px;
 }
 
-.invalidpw {
+.invalid-input {
     color: red;
     font-size: 12px;
 }
